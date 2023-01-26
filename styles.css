@@ -16,31 +16,34 @@ header {
     align-items: center;
     gap: 400px;
     padding-left: 100px;
-    position: fixed;
+    
     z-index: 1;
 }
-@media (max-width: 620px) {
+@media (max-width: 500px) {
     header {
         background-color: #252601;
-        max-width: 480px;
+        max-width: 500px;
         height: 80px;
         display: flex;  
         justify-content: center; 
         flex-direction: column;
         align-items: center;
         gap: 15px;
-        padding: 8px 0 8px 0;        
+        padding: 0;        
         z-index: 1;
+        
     }
 }
 .logo {
     color: #EAF205;
     font-weight: bold;
     font-size: 20px;
+    
 }
 .menu {
     display: flex;
     align-items: flex-end;
+   
 }
 ul {
     list-style-type: none;
@@ -70,10 +73,10 @@ nav {
     gap: 100px;
   
 }
-@media (max-width: 620px) {
+@media (max-width: 500px) {
     nav {
         background-color:#252601; 
-        max-width: 480px;     
+        max-width: 500px;     
         max-height: 514px;
         padding: 20px 0 525px 0;
         display: flex;
@@ -82,7 +85,7 @@ nav {
         gap: 47px;
     }
 }
-@media (max-width: 620px) {
+@media (max-width: 500px) {
     .textos {
         display: flex;
         flex-direction: column;
@@ -90,7 +93,7 @@ nav {
         text-align: center;
 }
 }
-@media (max-width: 620px) {
+@media (max-width: 500px) {
     .container-left {
         display: flex;
         flex-direction: column;
@@ -146,10 +149,10 @@ nav {
     padding: 120px 100px 120px 100px;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 500px) {
     .sobre {
         background-color: #565902; 
-        max-width: 480px;
+        max-width: 500px;
         height: auto;  
         color: white;    
         display: flex;
@@ -200,12 +203,15 @@ article {
     padding: 100px 100px 120px 100px;
     background-color: #D2D904;
 }
-@media (max-width: 620px) {
+@media (max-width: 500px) {
     article {   
         min-height: 100vh;
-        max-width: 480px;     
-        padding: 50px 100px 50px 100px;
+        max-width: 500px;     
+        padding: 50px 0 50px 0;        
         background-color: #D2D904;
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
     }
 }
 .title-port {
@@ -214,7 +220,7 @@ article {
     margin-bottom: 40px;
     color: #252601;    
 }
-@media (max-width: 620px) {
+@media (max-width: 500px) {
     .title-port {
         display: flex;
         flex-direction: column;
@@ -227,6 +233,11 @@ article {
 #port {
     font-size: 40px;
     line-height: 1; 
+    text-align: center;
+}
+#port2 {
+   
+    text-align: center;
 }
 .img_project img {
     max-width: 250px;
@@ -237,7 +248,7 @@ article {
 .container_cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 3fr));    
-    gap: 30px; 
+    gap: 30px;    
 }
 
 
@@ -289,9 +300,9 @@ footer {
     color: white;   
     padding: 20px 100px 40px 100px;
 }
-@media (max-width: 620px) {
+@media (max-width: 500px) {
     footer {    
-        max-width: 480px;
+        max-width: 500px;
         display: flex;
         flex-direction: column;
         background-color: #252601;
