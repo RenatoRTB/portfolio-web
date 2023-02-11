@@ -19,7 +19,7 @@ header {
     
     z-index: 1;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     header {
         background-color: #252601;
         max-width: 500px;
@@ -73,7 +73,7 @@ nav {
     gap: 100px;
   
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     nav {
         background-color:#252601; 
         max-width: 500px;     
@@ -85,7 +85,7 @@ nav {
         gap: 47px;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .textos {
         display: flex;
         flex-direction: column;
@@ -93,7 +93,7 @@ nav {
         text-align: center;
 }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .container-left {
         display: flex;
         flex-direction: column;
@@ -149,7 +149,7 @@ nav {
     padding: 120px 100px 120px 100px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .sobre {
         background-color: #565902; 
         max-width: 500px;
@@ -203,7 +203,7 @@ article {
     padding: 100px 100px 120px 100px;
     background-color: #D2D904;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     article {   
         min-height: 100vh;
         max-width: 500px;     
@@ -300,7 +300,7 @@ footer {
     color: white;   
     padding: 20px 100px 40px 100px;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     footer {    
         max-width: 500px;
         display: flex;
